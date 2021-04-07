@@ -1,4 +1,5 @@
 /* Basic Style */
+
 body {
     background-color: #f8f8f8;
     color: #333;
@@ -21,6 +22,7 @@ body {
 }
 
 @media (max-width:768px) {
+
     .eisenhower-matrix {
         text-align: center;
     }
@@ -101,6 +103,7 @@ input[type="text"]:focus {
 }
 
 /* New Task */
+
 label[for="new-task"] {
     display: block;
     margin: 0 0 20px;
@@ -111,6 +114,7 @@ label[for="new-task"] {
 }
 
 /* Task list */
+
 li {
     overflow: hidden;
     padding: 20px 0;
