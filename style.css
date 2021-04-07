@@ -16,7 +16,7 @@ body {
     width: 100%;
 }
 
-.aaa .more_inf {
+.aa .more-inf {
     font-family: fantasy, cursive;
 }
 
@@ -152,7 +152,8 @@ button.delete img:hover {
 
 /* Completed */
 ul#completed-tasks label {
-    text-decoration: line-through color: #888;
+    text-decoration: line-through 
+    color: #888;
 }
 
 /* Edit Task */
@@ -160,11 +161,11 @@ ul li input[type=text] {
     display: none
 }
 
-ul li.editMode input[type=text] {
+ul li.edit-mode input[type=text] {
     display: inline-block;
     width: 224px
 }
 
-ul li.editMode label {
+ul li.edit-mode label {
     display: none;
 }
